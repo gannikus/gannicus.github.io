@@ -15,7 +15,7 @@
               "state": {
                 "file": "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2025-11-04-解决命令行无法通过VPN代理访问网络的问题"
@@ -180,8 +180,9 @@
   },
   "active": "677d07832a641e8e",
   "lastOpenFiles": [
-    "_posts/未命名.md",
     "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+    "assets",
+    "_posts/未命名.md",
     "README.md",
     "_site/jekyll/update/2025/11/03/welcome-to-jekyll.html",
     "_site/jekyll/update/2025/11/03",
@@ -193,7 +194,6 @@
     "_site/jekyll",
     "_site/index.html",
     "_site/feed.xml",
-    "_site/about",
     "_site/assets/minima-social-icons.svg"
   ]
 }

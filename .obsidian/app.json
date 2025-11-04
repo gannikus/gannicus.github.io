@@ -1,1 +1,6 @@
-{}
+{
+  "useMarkdownLinks": true,
+  "livePreview": false,
+  "attachmentFolderPath": "assets",
+  "showUnsupportedFiles": true
+}
