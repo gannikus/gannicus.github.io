@@ -1,0 +1,47 @@
+{{/*
+Responsive image shortcode
+Usage examples:
+Inline page-bundle image:
+  {{< responsive src="myphoto.jpg" alt="Alt text" >}}
+
+From assets (assets/images/...):
+  {{< responsive src="images/bg.jpg" alt="Alt" >}}
+
+Options:
+  - src (required): image path, either relative to page bundle or to project (resources)
+  - alt (optional): alt text
+  - class (optional): css classes for <img>
+  - sizes (optional): sizes attribute for srcset (default: 100vw)
+*/}}
+
+{{ $src := .Get "src" }}
+{{ if not $src }}{{ errorf "responsive shortcode: missing 'src' parameter" }}{{ end }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $sizesAttr := .Get "sizes" | default "100vw" }}
+
+{{/* Prefer page bundle resources */}}
+{{ $res := .Page.Resources.GetMatch $src }}
+{{ if not $res }}
+  {{ $res = resources.Get $src }}
+{{ end }}
+
+{{ if not $res }}{{ errorf "responsive shortcode: resource '%s' not found" $src }}{{ end }}
+
+{{ $widths := slice 400 800 1200 }}
+{{ $srcset := slice }}
+{{ $webpsrcset := slice }}
+{{ $largest := nil }}
+
+{{ range $i, $w := $widths }}
+  {{ $r := $res.Resize (printf "%dx" $w) }}
+  {{ if not $largest }}{{ $largest = $r }}{{ end }}
+  {{ $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink $w) }}
+  {{ $wwebp := $r.Convert "webp" }}
+  {{ $webpsrcset = $webpsrcset | append (printf "%s %dw" $wwebp.RelPermalink $w) }}
+{{ end }}
+
+<picture>
+  <source type="image/webp" srcset="{{ delimit $webpsrcset ", " }}" sizes="{{ $sizesAttr }}">
+  <img src="{{ $largest.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizesAttr }}" alt="{{ $alt | safeHTMLAttr }}" class="{{ $class }}" loading="lazy" decoding="async">
+</picture>

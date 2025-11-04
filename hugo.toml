@@ -2,3 +2,7 @@ baseURL = "https://gannikus.github.io/"
 languageCode = "zh-cn"
 title = "Gannicus's Blog"
 theme = "ananke" 
+ 
+[taxonomies]
+	tag = "tags"
+	category = "categories"

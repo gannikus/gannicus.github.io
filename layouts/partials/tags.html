@@ -1,0 +1,21 @@
+<ul class="pa0">
+  {{/* Show categories first (if any) */}}
+  {{ with .GetTerms "categories" }}
+    {{ range . }}
+      <li class="list di">
+        <a href="{{ .RelPermalink }}" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">
+          {{- .LinkTitle -}}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+
+  {{/* Then show tags */}}
+  {{ range .GetTerms "tags" }}
+   <li class="list di">
+     <a href="{{ .RelPermalink }}" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">
+       {{- .LinkTitle -}}
+     </a>
+   </li>
+  {{ end }}
+</ul>
