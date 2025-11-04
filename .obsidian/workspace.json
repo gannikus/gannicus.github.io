@@ -140,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-11-04-解决命令行无法通过VPN代理访问网络的问题 的大纲"
             }
           },
           {
@@ -159,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,22 +179,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "677d07832a641e8e",
+  "active": "1c6d9676169055b4",
   "lastOpenFiles": [
-    "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
-    "assets",
-    "_posts/未命名.md",
-    "README.md",
     "_site/jekyll/update/2025/11/03/welcome-to-jekyll.html",
     "_site/jekyll/update/2025/11/03",
+    "_site/windows/2025/11/04/解决命令行无法通过VPN代理访问网络的问题.html",
     "_site/jekyll/update/2025/11",
+    "_site/windows/2025/11/04",
     "_site/jekyll/update/2025",
+    "_site/windows/2025/11",
     "_site/jekyll/update",
+    "_site/windows/2025",
     "_site/about/index.html",
-    "_site/README.md",
     "_site/jekyll",
-    "_site/index.html",
-    "_site/feed.xml",
+    "_site/README.md",
+    "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+    "_posts/未命名.md",
+    "README.md",
     "_site/assets/minima-social-icons.svg"
   ]
 }
