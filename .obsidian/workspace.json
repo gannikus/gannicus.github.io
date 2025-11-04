@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e1f5caeda299782",
+        "id": "1b870dd664c86e1d",
         "type": "tabs",
         "children": [
           {
-            "id": "80a9fd80710a7153",
+            "id": "677d07832a641e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-11-04-解决命令行无法通过VPN代理访问网络的问题"
             }
           }
         ]
@@ -174,8 +178,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfa4bfa4d0013b92",
+  "active": "677d07832a641e8e",
   "lastOpenFiles": [
+    "_posts/未命名.md",
+    "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+    "README.md",
     "_site/jekyll/update/2025/11/03/welcome-to-jekyll.html",
     "_site/jekyll/update/2025/11/03",
     "_site/jekyll/update/2025/11",
@@ -187,7 +194,6 @@
     "_site/index.html",
     "_site/feed.xml",
     "_site/about",
-    "_site/404.html",
     "_site/assets/minima-social-icons.svg"
   ]
 }

@@ -1,2 +1,2 @@
-# gannicus.github.io
+# gannikus.github.io
 blog
