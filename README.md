@@ -1,2 +1,2 @@
 # gannikus.github.io
-blog
+blog base on hugo! 
