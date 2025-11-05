@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+                "file": "content/post/first/Git 代理配置指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-11-04-解决命令行无法通过VPN代理访问网络的问题"
+              "title": "Git 代理配置指南"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
+                "file": "content/post/first/Git 代理配置指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-11-04-解决命令行无法通过VPN代理访问网络的问题 的大纲"
+              "title": "Git 代理配置指南 的大纲"
             }
           },
           {
@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,8 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c6d9676169055b4",
+  "active": "677d07832a641e8e",
   "lastOpenFiles": [
+    "content/post/first/Git 代理配置指南.md",
+    "content/post/first/first.md",
     "_site/jekyll/update/2025/11/03/welcome-to-jekyll.html",
     "_site/jekyll/update/2025/11/03",
     "_site/windows/2025/11/04/解决命令行无法通过VPN代理访问网络的问题.html",
@@ -191,7 +193,6 @@
     "_site/jekyll/update",
     "_site/windows/2025",
     "_site/about/index.html",
-    "_site/jekyll",
     "_site/README.md",
     "_posts/2025-11-04-解决命令行无法通过VPN代理访问网络的问题.md",
     "_posts/未命名.md",
