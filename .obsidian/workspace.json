@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/first/Git 代理配置指南.md",
+                "file": "content/post/first/TrueNAS SCALE (Dragonfish) 终极代理 (mihomo) 配置指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git 代理配置指南 的大纲"
+              "title": "TrueNAS SCALE (Dragonfish) 终极代理 (mihomo) 配置指南 的大纲"
             }
           },
           {
@@ -196,9 +196,14 @@
   },
   "active": "de88c28598c69175",
   "lastOpenFiles": [
+    "content/post/first/TrueNas app推荐——qBittorrent.md",
+    "content/post/first/TrueNas app推荐——jellyfin.md",
+    "content/post/first/TrueNas app推荐——tailScale.md",
+    "content/post/first/TrueNas app推荐——plex.md",
+    "content/post/first/TrueNas app推荐——nextCloud.md",
+    "content/post/first/TrueNAS SCALE (Dragonfish) 终极代理 (mihomo) 配置指南.md",
     "content/post/first/first.md",
     "content/post/first/Git 代理配置指南.md",
-    "content/post/first/TrueNAS SCALE (Dragonfish) 终极代理 (mihomo) 配置指南.md",
     "_site/jekyll/update/2025/11/03/welcome-to-jekyll.html",
     "_site/jekyll/update/2025/11/03",
     "_site/windows/2025/11/04/解决命令行无法通过VPN代理访问网络的问题.html",
